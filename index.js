@@ -4,7 +4,6 @@ let cats = ["Milo", "Otis", "Garfield"]
 function destructivelyAppendCat(name) {
     cats.push(name)
 }
-console.log(destructivelyAppendCat())
 
 function destructivelyPrependCat(name) {
     cats.unshift(name)
@@ -22,7 +21,7 @@ function destructivelyRemoveFirstCat() {
 function appendCat(name) {
     return [...cats, name]
 }
-console.log(appendCat("asdfghhj"))
+
 
 function prependCat(name) {
     return [name, ...cats]
